@@ -1,0 +1,25 @@
+
+City Search Pseudocode
+
+create event object (parameters - name, city, date, location)
+create event list
+create matching event list
+
+connect to database
+
+while database has next item
+	create event object using data
+	add event object to event list
+
+accept user city input
+
+for each item in event list
+	if event is in the same city as input
+		add event object to matching event list
+
+sort matching events by date
+
+display events in order from earliest to latest
+
+return matching event list
+	
