@@ -1,0 +1,11 @@
+Find Upcoming Events in the same city
+
+  Interact with Event Listing Icon
+  While Icon is opening
+    Software accesses database of YU Alumni Users
+    Use GPS tracking to find all events
+    Narrow down list to common city perameters
+  List all events within the city area
+  Give option to post own event
+  If posting own event
+    Input City, name, location, and description of event
