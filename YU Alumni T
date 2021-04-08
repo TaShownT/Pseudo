@@ -1,11 +1,25 @@
-Find Upcoming Events in the same city
+City Search Pseudocode
 
-  Interact with Event Listing Icon
-  While Icon is opening
-    Software accesses database of YU Alumni Users
-    Use GPS tracking to find all events
-    Narrow down list to common city perameters
-  List all events within the city area
-  Give option to post own event
-  If posting own event
-    Input City, name, location, and description of event
+create event object (parameters - name, city, date, location, description)
+create event list
+create matching event list
+create sorted list
+
+connect to database
+
+while database has next item
+	create event object using data
+	add event object to event list
+
+accept user city input
+
+for each item in event list
+	if event is in the same city as input
+		add event object to matching event list
+
+sort matching events by date and add to sorted list (earliest to latest)
+
+display sorted list
+
+return sorted list
+	
