@@ -1,7 +1,7 @@
 
 City Search Pseudocode
 
-create event object (parameters - name, city, date, location)
+create event object (parameters - name, city, date, location, attendees)
 create event list
 create matching event list
 
@@ -17,9 +17,9 @@ for each item in event list
 	if event is in the same city as input
 		add event object to matching event list
 
-sort matching events by date
+sort matching event list by date (earliest to latest)
 
-display events in order from earliest to latest
+display matching event list
 
 return matching event list
 	
